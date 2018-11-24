@@ -57,7 +57,7 @@ class PostController extends AbstractController
      */
     public function aboutAction(){
 
-        $about = "информация о сайте" ;
+        $about = "" ;
 
         return $this->render('post/about.html.twig', [
         'about' => $about,
