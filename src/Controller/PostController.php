@@ -45,6 +45,7 @@ class PostController extends AbstractController
 
         $postsList = "number of list";
 
+
         return $this->render( 'post/posts.html.twig' ,
             [
                 'posts' => $postsList,
@@ -57,7 +58,7 @@ class PostController extends AbstractController
      */
     public function aboutAction(){
 
-        $about = "" ;
+        $about = "Этот сайт является " ;
 
         return $this->render('post/about.html.twig', [
         'about' => $about,
