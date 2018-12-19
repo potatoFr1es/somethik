@@ -1,23 +1,26 @@
 {% extends 'base.html.twig' %}
+{% block stylesheets %}<link rel="stylesheet" type="text/css" href="/css/post.css" {% endblock %}
+
 {% block body %}
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
         .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
         .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-        <link rel="" >
     </style>
 
-    <hr class="example-wrapper">
-    <button type="button" class="btn btn-default">Default</button>
+    <div class="wrapper">
+        <div class="header"></div>
+        <div class="content">
+            <div class="left"></div>
+            <div class="right">
+                <div class="right_menu"></div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
 
 
-
-    <div class="lower"></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
 
 {% endblock %}

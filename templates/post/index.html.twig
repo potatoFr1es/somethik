@@ -1,12 +1,14 @@
 {% extends 'base.html.twig' %}
 {% block javascripts %}
-    <script src="rightback.js"></script>
-    <script src="jQuery.js"></script>
+    <script src="../../public/js/rightback.js"></script>
+    <script src="../../public/js/jQuery.js"></script>
 {% endblock %}
 {% block body %}
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+
+
 </style>
 
 
@@ -15,7 +17,7 @@
     {{ hello }}
 </div>
 
-    <form action="rightback.js">
+    <form action="../../public/js/rightback.js">
         <input type="number" name="answer" number="a1" id="001">
         <input type="button" name="button" number="a2" id="002">
 

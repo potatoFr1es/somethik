@@ -1,12 +1,68 @@
 {% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="/css/ffffff.css">
+{% endblock %}
+
 {% block body %}
     <style>
         .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
         .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
     </style>
 
-    <hr class="example-wrapper">
 
-{{ posts}}
+    <div class="wrapper">
+        <div class="header">
+            {#<img src="/images/logo.jpg" id="logo" href="http:/index">#}
+            <a href="http:/index" id="logo">?ЛОГОТИП?</a>
+        </div>
+
+        <div class="content">
+
+                <div class="left">
+
+                    <div class="article">
+                        <img src="/images/forartickle.jpg" />
+                        {{ post }} <a href="/post">Подробнее</a>
+                        <div style="clear:both;"></div>
+                    </div>
+                    <div class="article">
+                        <img src="/images/forartickle.jpg" />
+                        {{ post }} <a href="/post">Подробнее</a>
+                        <div style="clear:both;"></div>
+                    </div>
+                    <div class="article">
+                        <img src="/images/forartickle.jpg" />
+                        {{ post }} <a href="/post">Подробнее</a>
+                        <div style="clear:both;"></div>
+                    </div>
+                    <div class="article">
+                        <img src="/images/forartickle.jpg" />
+                        {{ post }} <a href="/post">Подробнее</a>
+                        <div style="clear:both;"></div>
+                    </div>
+
+                </div>
+            <div class="right">
+                <div class="right_menu";>
+                    {#<div class="left_menu" href="#">Main</div>#}
+                    <a href="#" id="leftMenu"><div class="left_menu">Main</div></a>
+                    <a href="#" id="leftMenu"><div class="left_menu">Account</div></a>
+                    <a href="#" id="leftMenu"><div class="left_menu">Messages</div></a>
+                    <a href="#" id="leftMenu"><div class="left_menu">Posts</div></a>
+                    <a href="#" id="leftMenu"><div class="left_menu">Archive</div></a>
+                    <a href="#" id="leftMenu"><div class="left_menu">Photos</div></a>
+                    <a href="#" id="leftMenu"><div class="left_menu">Writeback</div></a>
+
+
+
+                </div>
+            </div>
+
+            <div style="clear:both;"></div>
+        </div>
+        <div
+                class="footer">Пытаюсь сдклать сайт за один день ради этого я не пошел в школу
+        </div>
+    </div>
 
 {% endblock %}
