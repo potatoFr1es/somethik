@@ -1,0 +1,30 @@
+*{box-sizing: border-box; padding: 0; margin: 0;}
+
+body { font: 14px "Trebuchet MS"; min-height: 100%; height: 100%; background: #E6F7DE;}
+
+.wrapper {width: 1000px;  margin: 0 auto;}
+
+.header { width: 100%;  background: #A6EC79; }
+.header-right { float: right;}
+.header-left { float: left;}
+
+#search {background: #A6EC79; border-radius: 5px; }
+#search:hover {background: white;}
+
+.content {border-radius: 12px;  width: 100%;}
+
+.left { border-radius: 12px; width: 780px; padding: 10px; float: left;}
+
+.right { width: 200px; float: right; padding-top: 20px; }
+.right_menu a { display: block; text-align: center; margin: 5px 0; }
+
+.post { border-radius: 12px;  margin-bottom: 15px; width: 760px; padding: 10px; background: white}
+.post img { float: left; margin-left: 10px}
+.post p { text-indent: 15px; padding-right: 10px;}
+.post:hover { background: #e6ffe6;}
+
+.footer { width: 100%; padding: 10px; color: #AAAAAA; text-align: right; }
+.footer:hover { color: #A6EC79; }
+
+#leftMenu { height: 15px;  border-radius: 5px; }
+#leftMenu:hover { background: #A6EC79; }

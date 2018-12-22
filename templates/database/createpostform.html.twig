@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+    <div class="wrapper">
+        <form method="post" action="/createpost">
+            <input type="text" name="Text" placeholder="text">
+            <input type="text" name="Description" placeholder="description">
+            <input type="text" name="Photo" placeholder="photo">
+            <input type="text" name="Title" placeholder="title">
+            <input type="submit">
+        </form>
+
+    </div>
+
+
+{% endblock %}

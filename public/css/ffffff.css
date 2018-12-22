@@ -1,8 +1,8 @@
 
 *{box-sizing: border-box; padding: 0; margin: 0;}
 
-a {color: #333333;}
-a:hover {color: #444444;}
+/*a {color: #333333;}*/
+/*a:hover {color: #444444;}*/
 
 body { font: 14px "Trebuchet MS"; min-height: 100%; height: 100%; background: #E6F7DE;}
 
@@ -17,7 +17,7 @@ body { font: 14px "Trebuchet MS"; min-height: 100%; height: 100%; background: #E
 .article { border-radius: 12px;  margin-bottom: 15px; width: 760px; padding: 10px; background: white}
 .article img { float: left; margin-left: 10px}
 .article p { text-indent: 15px; padding-right: 10px;}
-.article:hover {color: #444444;}
+.article:hover { background: #e6ffe6;}
 
 .right { width: 200px; float: right; padding-top: 20px; }
 .right_menu a { display: block; text-align: center; margin: 5px 0; }
@@ -27,3 +27,9 @@ body { font: 14px "Trebuchet MS"; min-height: 100%; height: 100%; background: #E
 
 #leftMenu { height: 15px;  border-radius: 5px; }
 #leftMenu:hover { background: #A6EC79; }
+
+.header-right { float: right;}
+.header-left { float: left;}
+
+#search {background: #A6EC79; border-radius: 5px; }
+#search:hover {background: white;}
